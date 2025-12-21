@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #3f8a8f, #3ba399);
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    background: linear-gradient(to right, #1ab889, #5090e3);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.aboutus {
+    background:#f0fdfa;
+    color: rgb(54, 151, 184);
+    padding: 80px 20px;
+    
+}
+
+.aboutus h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.aboutus img{
+    width:520px;
+    padding-left: 20px;
+    float:left;
+    border-radius: 20px;
+    display: flex;
+    
+
+}
+.aboutus p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    padding-left: 50px;
+    text-align: left;
+    display: flex;
+    
+}
+
+.destinations {
+    padding: 60px 40px;
+    background-color: #f0fdfa;
+    text-align: center;
+}
+
+.destinations h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+   color: rgb(54, 151, 184);
+}
+
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+
+
+.card h3 {
+    color: #0a9396;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
+
+
+footer {
+    background-color: #27868f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
