@@ -1,0 +1,57 @@
+body {
+    background-color:  rgb(196, 251, 251);
+    color: #033;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    color:#35b9ed;;
+    font-size: 50px;
+    font-weight: 600;
+}
+.button {
+    color: #31addf;
+}
+
+.discover {
+    padding-top: 25px;
+}
+.head2 {
+    color: #31addf;
+}
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+}
+
+.slider img {
+    min-width: 100%;
+    height: 220px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    border-radius: 12px;
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+h3 {
+    color:#227c9f ;
+}
+
+
+
